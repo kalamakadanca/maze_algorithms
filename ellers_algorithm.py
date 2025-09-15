@@ -1,19 +1,20 @@
+from general_archive import General
+
 def main():
     general = General()
     num_of_row_col = general._first_level
     maze = ellers(num_of_row_col)
     print(maze)
 
-
-
-class General():
-    def __init__(self, first_level, second_level, third_level):
-        self._first_level = 5
-        self._second_level = 50
-        self._third_level = 500
-
 def ellers(num_of_row_col):
+    maze = {}
+    one_row = []
+    second_row = []
+    
     frst_row = " _" * num_of_row_col + " "
+
+
+    
     return frst_row
 
 
